@@ -12,10 +12,10 @@ const btns = [
 
 function MyKeypad({ onButtonClick }) {
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <div className="my-calculator-keypad">
       {/* 依照 btns 陣列動態產生每一列按鈕 */}
       {btns.map((row, i) => (
-        <div key={i} style={{ display: "flex" }}>
+        <div key={i} className="my-calculator-keypad-row">
           {row.map((val) => (
             // 每個按鈕都呼叫 MyButton
             <MyButton key={val} value={val} onClick={onButtonClick} />

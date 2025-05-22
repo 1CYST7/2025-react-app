@@ -3,6 +3,7 @@ import React from "react";
 import MyDisplay from "./MyDisplay";
 import MyKeypad from "./MyKeypad";
 import MyErrorMessage from "./MyErrorMessage";
+import "./MyCalculator.css";
 
 function MyCalculator() {
   // 運算式狀態
@@ -41,7 +42,7 @@ function MyCalculator() {
   };
 
   return (
-    <div style={{ maxWidth: 340, margin: "40px auto", border: "2px solid #aaa", borderRadius: 16, padding: 24, background: "#f9f9f9", boxShadow: "0 2px 8px #0001" }}>
+    <div className="my-calculator-container">
       {/* 顯示運算式與結果 */}
       <MyDisplay expression={expression} result={result} />
       {/* 按鈕區 */}
