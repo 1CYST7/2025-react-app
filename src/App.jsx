@@ -5,6 +5,7 @@ import "./App.css";
 import MySlider from "./component/rgb-panel/MySlider";
 import MyPanel from "./component/rgb-panel/MyPanel";
 import MyCalculator from "./component/calculator/MyCalculator";
+import TicTacToe from "./component/tic-tac-toe/TicTacToe";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,15 +23,26 @@ function App() {
       <h1>5b1g0020胡芊杏</h1>
       <h2>我的第一個元件：Slider</h2>
       <div>
-        <p>R:<MySlider /></p>
-        <p>G:<MySlider /></p>
-        <p>B:<MySlider /></p>
+        <p>
+          R:
+          <MySlider />
+        </p>
+        <p>
+          G:
+          <MySlider />
+        </p>
+        <p>
+          B:
+          <MySlider />
+        </p>
       </div>
-      <br/>
+      <br />
       <h2>第二個元件：RGB色彩面板</h2>
       <MyPanel />
-      <h2>計算機</h2>
+      <h2>第三個元件:計算機</h2>
       <MyCalculator />
+      <h2>第四個元件:井字遊戲</h2>
+      <TicTacToe />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
