@@ -2,9 +2,9 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import MySlider from "./component/MySlider";
-import MyPanel from "./component/MyPanel";
-import MyCalculator from "./component/MyCalculator";
+import MySlider from "./component/rgb-panel/MySlider";
+import MyPanel from "./component/rgb-panel/MyPanel";
+import MyCalculator from "./component/calculator/MyCalculator";
 
 function App() {
   const [count, setCount] = useState(0);
