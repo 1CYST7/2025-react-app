@@ -42,7 +42,7 @@ function App() {
       <h2>第三個元件:計算機</h2>
       <MyCalculator />
       <h2>第四個元件:井字遊戲</h2>
-      <TicTacToe />
+      {/* <TicTacToe /> */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
