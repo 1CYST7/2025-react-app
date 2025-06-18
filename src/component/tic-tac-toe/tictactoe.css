@@ -29,13 +29,13 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
-    border: 3px solid blue;
+    border: 3px solid rgb(133, 133, 145);
     border-radius: 30px;
     padding: 20px;
 }
 
 .game-board{
-    background-color: lightgreen;
+    background-color: rgb(141, 157, 141);
     padding: 10px;
     border-radius: 10px;
     align-items: center;
